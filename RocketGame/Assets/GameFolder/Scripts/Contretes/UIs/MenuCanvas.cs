@@ -12,6 +12,7 @@ namespace RocketGame.UIs
     {
         [SerializeField] private GameObject _winMenu;
         [SerializeField] private GameObject _loseMenu;
+        [SerializeField] private GameObject _inGameMenu;
         public void StartGameClicked(GameObject menu)
         {
             GameManager.Instance.StartGame(menu);
@@ -36,10 +37,12 @@ namespace RocketGame.UIs
             yield return new WaitForSeconds(1f);
             if (didWin)
             {
+                _inGameMenu.SetActive(false);
                 _winMenu.SetActive(true);
             }
             else
             {
+                _inGameMenu.SetActive(false);
                 _loseMenu.SetActive(true);
             }
             

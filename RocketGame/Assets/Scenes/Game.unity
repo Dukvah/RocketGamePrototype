@@ -567,18 +567,6 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 1861559161969094549, guid: c17e02fa380e1dc44a6c707d80c8e23b, type: 3}
   m_PrefabInstance: {fileID: 4526163815210979502}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &1420479736
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1420479732}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0eb42d5c976432b4ebce2b3854ac8afe, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1001 &1458138631
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -987,6 +975,18 @@ PrefabInstance:
       propertyPath: m_Name
       value: MainCanvas
       objectReference: {fileID: 0}
+    - target: {fileID: 4173795158765245254, guid: c17e02fa380e1dc44a6c707d80c8e23b, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4173795158765245254, guid: c17e02fa380e1dc44a6c707d80c8e23b, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4173795158765245254, guid: c17e02fa380e1dc44a6c707d80c8e23b, type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5699618325155618698, guid: c17e02fa380e1dc44a6c707d80c8e23b, type: 3}
       propertyPath: _winMenu
       value: 
@@ -1026,6 +1026,14 @@ PrefabInstance:
     - target: {fileID: 6546419814522034500, guid: c17e02fa380e1dc44a6c707d80c8e23b, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
       value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 6878536556305139159, guid: c17e02fa380e1dc44a6c707d80c8e23b, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6878536556305139159, guid: c17e02fa380e1dc44a6c707d80c8e23b, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6999977404848467353, guid: c17e02fa380e1dc44a6c707d80c8e23b, type: 3}
       propertyPath: m_Pivot.x
@@ -1134,7 +1142,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5174927660725412962, guid: ce6a0617b83015d458c4912e24c5117c, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 11.5
+      value: 11.88
       objectReference: {fileID: 0}
     - target: {fileID: 5174927660725412962, guid: ce6a0617b83015d458c4912e24c5117c, type: 3}
       propertyPath: m_LocalPosition.z
